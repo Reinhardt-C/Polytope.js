@@ -1,0 +1,15 @@
+{
+	"name": "polytope",
+	"version": "1.0.0",
+	"description": "Library for handling polytopes of arbitrary dimensions in JavaScript",
+	"main": "",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Reinhardt-C",
+	"license": "MIT",
+	"devDependencies": {
+		"webpack": "^5.21.2",
+		"webpack-cli": "^4.5.0"
+	}
+}
