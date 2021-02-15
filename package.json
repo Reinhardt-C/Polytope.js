@@ -2,9 +2,10 @@
 	"name": "polytope",
 	"version": "1.0.0",
 	"description": "Library for handling polytopes of arbitrary dimensions in JavaScript",
-	"main": "",
+	"private": true,
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "webpack"
 	},
 	"author": "Reinhardt-C",
 	"license": "MIT",
