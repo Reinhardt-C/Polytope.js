@@ -45,7 +45,7 @@ export default class Vertex {
 		for (let i = 0; i < dif; i++) a.push(0);
 		// Constant so changing values in a  works
 		const v0 = a[axes[0]];
-		const v1 = a[axes[0]];
+		const v1 = a[axes[1]];
 		// Change coordinates along axes by sine/cosine for rotation
 		a[axes[0]] = Math.cos(theta) * v0 - Math.sin(theta) * v1;
 		a[axes[1]] = Math.sin(theta) * v0 + Math.cos(theta) * v1;
